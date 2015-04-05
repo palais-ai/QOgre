@@ -10,7 +10,7 @@
 #ifndef QOItem_H
 #define QOItem_H
 
-#include "qmlogre_global.h"
+#include "QOgreGlobal.h"
 #include <QtQuick/QQuickItem>
 
 class QOEngine;

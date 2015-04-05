@@ -10,7 +10,7 @@
 #ifndef QONode_H
 #define QONode_H
 
-#include "qmlogre_global.h"
+#include "QOgreGlobal.h"
 #include "QOEngine.h"
 #include <QObject>
 #include <QtQuick/QSGGeometryNode>

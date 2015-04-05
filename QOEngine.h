@@ -10,7 +10,7 @@
 #ifndef QOEngineITEM_H
 #define QOEngineITEM_H
 
-#include "qmlogre_global.h"
+#include "QOgreGlobal.h"
 #include <QObject>
 #include <QQuickWindow>
 #include <QOpenGLContext>

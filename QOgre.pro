@@ -27,11 +27,11 @@ SOURCES += \
     QOItem.cpp
 
 HEADERS += \
-    qmlogre_global.h \
     QOCamera.h \
     QONode.h \
     QOItem.h \
-    QOEngine.h
+    QOEngine.h \
+    QOgreGlobal.h
 
 # Copy all headers to build folder
 Headers.path = $$OUT_PWD/include

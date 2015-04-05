@@ -10,7 +10,7 @@
 #ifndef QOCamera_H
 #define QOCamera_H
 
-#include "qmlogre_global.h"
+#include "QOgreGlobal.h"
 #include <QObject>
 #include <QScopedPointer>
 #include <OgreVector3.h>
