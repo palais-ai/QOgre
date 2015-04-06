@@ -1,7 +1,7 @@
 CONFIG += qt
 QT += qml quick
 TEMPLATE = lib
-TARGET = qmlogre
+TARGET = QOgre
 
 DEFINES += QMLOGRE_LIBRARY
 macx:QMAKE_LFLAGS_SONAME = -Wl,-install_name,@executable_path/../Plugins/
