@@ -158,9 +158,17 @@ void CameraHandler::fitToContain(Ogre::SceneNode* node)
 
     if(mInitialDistance == 0)
     {
-        // Scale view to fit
-        mInitialDistance = ((boundingRadius) /
-                            tan(mCamera->getFOVy().valueRadians() / 2.f));
+        if(fabs(boundingRadius) < 0.001)
+        {
+            // Default distance
+            mInitialDistance = 10;
+        }
+        else
+        {
+            // Scale view to fit
+            mInitialDistance = ((boundingRadius) /
+                                tan(mCamera->getFOVy().valueRadians() / 2.f));
+        }
     }
 
     // Reset zoom level
