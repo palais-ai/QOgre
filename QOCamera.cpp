@@ -56,7 +56,7 @@ void CameraHandler::onCreateCameraWithCurrentSceneManager()
     camera->setAspectRatio(1);
 
     mCamera = camera;
-    mNode = sceneManager->getRootSceneNode()->createChildSceneNode();
+    mNode = sceneManager->getRootSceneNode()->createChildSceneNode("Camera");
     mNode->attachObject(camera);
     mCamera->setPosition(0,0,0);
 
